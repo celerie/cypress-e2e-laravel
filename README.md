@@ -62,3 +62,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## To run project and Cypress
+
+-Features include register, login and home
+-Use npm install && npm run dev to run app
+-php artisan serve to host server
+-./node_modules/.bin/cypress open to run cypress
+-Use php artisan migrate to set up initial DB in mysql
+-Ran login tests using cypress
+-Used mailinator to test and receive emails
